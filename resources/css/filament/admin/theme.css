@@ -1,0 +1,38 @@
+/* Hapus background image dan atur warna merah */
+body {
+    background-color: red !important;
+    background-image: none !important;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: Menyesuaikan kontainer utama agar transparan atau putih */
+.filament-main {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header branding */
+.filament-header {
+    background-color: #015C9B !important;
+    color: white;
+}
+
+/* Login page styling */
+body.filament-body.login-page {
+    background: linear-gradient(to right, red, darkred) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Login card */
+.filament-login-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}

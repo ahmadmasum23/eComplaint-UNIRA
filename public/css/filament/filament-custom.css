@@ -1,0 +1,11 @@
+/* public/css/filament-custom.css */
+
+body {
+    background: url('/images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Atau jika hanya ingin warna */
+body {
+    background-color: #f8f0f0;
+}
